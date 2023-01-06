@@ -5,3 +5,6 @@ class UnitTest extends munit.FunSuite:
   test("unit") {
     assert(2 * 3 == 6)
   }
+  test("sum") { // see library.scala
+    assert( sum( List(1, 2, 3) ) == 6)
+  }
