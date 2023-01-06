@@ -1,4 +1,5 @@
 .*
 !.gitignore
 app
-library.jar
+*.js
+*.jar
