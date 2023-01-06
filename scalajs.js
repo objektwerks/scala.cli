@@ -971,37 +971,37 @@ var $d_jl_Void = new $TypeData().initClass({
   jl_Void: 1,
   O: 1
 }, (void 0), (void 0), ((x) => (x === (void 0))));
-function $s_Lobjektwerks_Hello__main__AT__V(args) {
-  $m_Lobjektwerks_Hello$().main__AT__V(args)
+function $s_Lobjektwerks_ScalaJs__main__AT__V(args) {
+  $m_Lobjektwerks_ScalaJs$().main__AT__V(args)
 }
 /** @constructor */
-function $c_Lobjektwerks_Hello$() {
+function $c_Lobjektwerks_ScalaJs$() {
   /*<skip>*/
 }
-$c_Lobjektwerks_Hello$.prototype = new $h_O();
-$c_Lobjektwerks_Hello$.prototype.constructor = $c_Lobjektwerks_Hello$;
+$c_Lobjektwerks_ScalaJs$.prototype = new $h_O();
+$c_Lobjektwerks_ScalaJs$.prototype.constructor = $c_Lobjektwerks_ScalaJs$;
 /** @constructor */
-function $h_Lobjektwerks_Hello$() {
+function $h_Lobjektwerks_ScalaJs$() {
   /*<skip>*/
 }
-$h_Lobjektwerks_Hello$.prototype = $c_Lobjektwerks_Hello$.prototype;
-$c_Lobjektwerks_Hello$.prototype.main__AT__V = (function(args) {
+$h_Lobjektwerks_ScalaJs$.prototype = $c_Lobjektwerks_ScalaJs$.prototype;
+$c_Lobjektwerks_ScalaJs$.prototype.main__AT__V = (function(args) {
   var console$1 = console;
   console$1.log("I am a ScalaJs source file and app!")
 });
-var $d_Lobjektwerks_Hello$ = new $TypeData().initClass({
-  Lobjektwerks_Hello$: 0
-}, false, "objektwerks.Hello$", {
-  Lobjektwerks_Hello$: 1,
+var $d_Lobjektwerks_ScalaJs$ = new $TypeData().initClass({
+  Lobjektwerks_ScalaJs$: 0
+}, false, "objektwerks.ScalaJs$", {
+  Lobjektwerks_ScalaJs$: 1,
   O: 1
 });
-$c_Lobjektwerks_Hello$.prototype.$classData = $d_Lobjektwerks_Hello$;
-var $n_Lobjektwerks_Hello$;
-function $m_Lobjektwerks_Hello$() {
-  if ((!$n_Lobjektwerks_Hello$)) {
-    $n_Lobjektwerks_Hello$ = new $c_Lobjektwerks_Hello$()
+$c_Lobjektwerks_ScalaJs$.prototype.$classData = $d_Lobjektwerks_ScalaJs$;
+var $n_Lobjektwerks_ScalaJs$;
+function $m_Lobjektwerks_ScalaJs$() {
+  if ((!$n_Lobjektwerks_ScalaJs$)) {
+    $n_Lobjektwerks_ScalaJs$ = new $c_Lobjektwerks_ScalaJs$()
   };
-  return $n_Lobjektwerks_Hello$
+  return $n_Lobjektwerks_ScalaJs$
 }
 /** @constructor */
 function $c_RTLong(lo, hi) {
@@ -1871,5 +1871,5 @@ function $asArrayOf_sjs_js_JavaScriptException(obj, depth) {
 }
 $L0 = new $c_RTLong(0, 0);
 $d_J.zero = $L0;
-$s_Lobjektwerks_Hello__main__AT__V(new ($d_T.getArrayOf().constr)([]));
+$s_Lobjektwerks_ScalaJs__main__AT__V(new ($d_T.getArrayOf().constr)([]));
 }).call(this);
