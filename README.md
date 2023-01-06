@@ -14,7 +14,6 @@ Source
 Library
 -------
 1. scala-cli compile library.scala
-2. scala-cli package library.scala -o library.jar --library
 
 Test
 ----
@@ -24,4 +23,6 @@ Package
 -------
 >Source file:
 1. scala-cli package app.scala -o app
-2. ./app
+>Library file:
+1. scala-cli package library.scala -o library.jar --library
+
