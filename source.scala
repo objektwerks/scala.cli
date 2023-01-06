@@ -1,0 +1,1 @@
+@main def print: Unit = println("I am a Scala source file.")
