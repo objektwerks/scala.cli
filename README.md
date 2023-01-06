@@ -17,7 +17,8 @@ Library
 
 Test
 ----
-1. scala-cli test . || scala-cli test unit.test.scala
+1. scala-cli test .
+2. scala-cli test unit.test.scala
 
 Package
 -------
