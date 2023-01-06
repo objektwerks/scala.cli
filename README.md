@@ -11,5 +11,6 @@ Source
 1. scala-cli compile app.scala
 2. scala-cli run app.scala
 
-Library
--------
+Test
+----
+1. scala-cli test . || scala-cli test unit.test.scala
