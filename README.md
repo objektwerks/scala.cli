@@ -10,8 +10,6 @@ Source
 ------
 1. scala-cli compile app.scala
 2. scala-cli run app.scala
-3. scala-cli package app.scala -o app
-4. ./app
 
 Library
 -------
@@ -21,3 +19,9 @@ Library
 Test
 ----
 1. scala-cli test . || scala-cli test unit.test.scala
+
+Package
+-------
+>Source file:
+1. scala-cli package app.scala -o app
+2. ./app
