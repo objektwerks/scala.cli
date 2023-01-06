@@ -18,7 +18,7 @@ Library
 ScalaJs
 -------
 1. scala-cli package --js scalajs.scala -o scalajs.js
-2. node scalajs.js
+2. node ./scalajs.js
 
 Test
 ----
