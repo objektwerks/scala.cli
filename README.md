@@ -26,7 +26,11 @@ Package
 >Library file:
 1. scala-cli package library.scala -o library.jar --library
 
+Assembly
+--------
+1. scala-cli package app.scala -o app --assembly
+
 Run
 ---
->After packaging app.scala:
+>After packaging or assemblying app.scala, run:
 1. ./app
