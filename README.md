@@ -40,3 +40,8 @@ Run
 ---
 >After packaging or assemblying app.scala, run:
 1. ./app
+
+Resources
+---------
+1. [Scala-CLI](https://scala-cli.virtuslab.org/)
+2. [Exploring Scala-CLI, The new Scala Runner](https://medium.com/virtuslab/exploring-scala-cli-the-new-scala-runner-4b958245c2e0)
