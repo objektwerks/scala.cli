@@ -36,6 +36,10 @@ Assembly
 --------
 1. scala-cli package app.scala -o app --assembly
 
+GraalVM
+-------
+1. scala-cli package app.scala -o app --native-image
+
 Run
 ---
 >After packaging or assemblying app.scala, run:
